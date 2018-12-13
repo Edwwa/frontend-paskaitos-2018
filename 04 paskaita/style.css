@@ -1,0 +1,115 @@
+html, body {
+    margin: 0%;
+    padding: 0;
+}
+.eile {
+    display: flex;
+    padding: 1em 2em;
+}
+#virsus {
+    position: fixed;
+}
+#virsus {
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+#svetaine {
+    color: gold;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#virsus li {
+    display: inline;
+}
+ul, li, a {
+   
+    color: white;
+}
+#divas2 {
+    background-image: url("kalnai.jpg");
+   background-size: cover;
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+   justify-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+h2 {
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+ #linkai, p {
+    color: white;
+justify-content: center;
+text-align: center;
+align-items: center;
+align-content: center;
+padding: center;
+}
+#linkai {
+    border: 2px solid white;
+}
+#vidurys {
+    background-color: rgb(48, 48, 95);
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#paragrafai {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: beige;
+}
+#paragrafai >div {
+    background: white;
+    margin: 1em;
+    padding: 1em 2em;
+    box-shadow: 0 0 5px black;
+    width: 25%;
+}
+#h3straip {
+    color: black;
+}
+#h3link {
+    color: blue;
+}
+#trecias-sekt {
+    display: flex;
+}
+
+#trecias-sekt >div {
+    border: 2px dotted grey;
+    margin: 2em;
+}
+#blok {
+    color: black;
+    display: flex;
+
+}
+#apacia {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#linkai-apacia {
+    text-decoration: underline;
+}
+#apacia-blokas a{
+    color: blue;
+}

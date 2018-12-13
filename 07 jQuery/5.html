@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>PAV 5</title>
+</head>
+<body>
+<button id="keisti">Animuoti teksta</button>
+<button id="keisti2">Animuoti teksta 2</button>
+<button id="keisti3">Animuoti teksta 3</button>
+<p id="paragrafas">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae corrupti accusamus voluptates dolore adipisci voluptatibus maxime, eum nostrum recusandae natus nam qui, sequi ipsum iusto ut, 
+    porro commodi omnis inventore.
+</p>
+
+
+
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#keisti").on("click", function(){
+            $("#paragrafas").fadeToggle();
+        })
+    });
+    $(document).ready(function(){
+        $("#keisti2").on("click", function(){
+        $("#paragrafas").toggle();
+        });
+    });
+    
+    $(document).ready(function(){
+        $("#keisti3").on("click", function(){
+            $("#paragrafas").slideToggle();
+        });
+    });
+    </script>
+    <script>
+    
+    </script>
+</body>
+</html>

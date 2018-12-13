@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Pavyzdys 2</title>
+</head>
+<body>
+<button id="slepti">Slepti teksta</button>
+<button id="rodyti">Rodyti teksta</button>
+<p>Lorem ipsum dolor sit amet consectetur
+     adipisicing elit. Consequatur nesciunt
+      distinctio cum dignissimos ipsum laboriosam voluptatem reiciendis modi officia ipsam. Vel deserunt neque obcaecati od
+     mollitia consequatur adipisci facere iusto!</p>
+     <br>
+     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Consectetur quis adipisci eaque quasi natus magni incidunt officia a.
+          Maiores unde provident in aliquid, enim eveniet! Sed impedit quibusdam quis modi?</p>
+
+
+
+
+
+
+
+
+
+
+        <script src="jquery-3.3.1.js"></script>
+        <script>
+        $(document).ready(function() {
+            $("#slepti").on("click", function(){
+                $("p").hide();
+            });
+            $("#rodyti").on("click" , function(){
+                $("p").show();
+            });
+        });
+        </script>
+</body>
+</html>

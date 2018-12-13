@@ -1,0 +1,17 @@
+.jumbotron{
+    background-image: url("sofa.jpeg");
+    background-size: cover;
+    
+   }
+h1 {
+    color: aliceblue;
+}
+.lead {
+    color: aliceblue;
+}
+.card .table  {
+    margin-bottom: 30px;
+}
+footer {
+    width: 100%;
+}

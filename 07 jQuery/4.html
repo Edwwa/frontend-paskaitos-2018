@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>PAV 4</title>
+</head>
+<body>
+    <button id="keisti">Animuoti teksta</button>
+    <p id="paragrafas">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla atque dolore distinctio molestias iure excepturi eligendi ducimus architecto. Veniam inventore, amet eos repudiandae error corporis sequi.
+         Fugit nemo est velit.</p>
+         <br>
+         <button id="divobut">Animuoti kvadrata</button>
+         <br><br>
+         <div id="divas"  style="background-color:blue; width:150px; height: 150px" >
+        </div>
+
+
+
+
+        <script src="jquery-3.3.1.js"></script>
+        <script>
+        $(document).ready(function(){
+            $("#keisti").on("click", function(){
+                $("#paragrafas").slideToggle();
+            })
+        })
+        </script>
+        <script>
+        $(document).ready(function(){
+            $("#divobut").on("click", function(){
+                $("#divas").slideToggle();
+            })
+        })
+        </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+.jumbotron {
+    background-image: url("kelias.jpeg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-bottom: 0;
+}
+footer {
+    background-color: rgb(51, 50, 50);
+    
+    
+}
+#viduriukas {
+    background-color: rgb(30, 30, 167);
+    text-align: center;
+    color: white;
+    padding: 2em 0;
+   
+}
+#viduriukas p {
+    margin-bottom: 0;
+}
+.col-4 {
+    margin-top: 15px;
+}
+.card {
+    margin-top: 20px;
+}

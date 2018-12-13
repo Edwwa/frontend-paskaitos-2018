@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Puslapis</title>
+</head>
+<body>
+    <button id="1">Slepti teksta</button>
+<p>Lorem ipsum dolor sit amet, consectetur 
+    adipisicing elit. Nisi in rerum doloribus minus, nostrum officia vitae ratione necessitatibus facere numquam quis eligendi earum
+     ducimus omnis maxime repellat, asperiores, perspiciatis vel.</p>
+     <br>
+
+     <button id="button1">Slepti sarasa</button>
+     <ul>
+         <li>po</li>
+         <li>viena</li>
+         <li>zodi</li>
+         <li>vienoj</li>
+         <li>eilutej</li>
+     </ul>
+
+
+
+
+    <script src="jquery-3.3.1.js"></script>
+    <script>
+    $(document).ready(function(){
+        $("#1").on("click", function() {
+            $("p").hide()
+        })
+    } )
+    </script>
+    <script>
+    $(document).ready(function(){
+        $("#button1").on("click", function() {
+            $("ul").hide()
+        })
+    })
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Pavyzdys 3</title>
+</head>
+<body>
+<button id="sleptirodyti">Slepti/rodyti teksta</button>
+<p>Lorem ipsum dolor sit amet consecte
+    tur adipisicing elit. Asperiores 
+    eius sapiente assumenda modi soluta minus? Aliquid tenetur iste maiores obcaecati tempore ipsam illum maxime quo
+    , molestiae qui odio modi placeat!</p>
+<br>
+    <button id="sleptirodytipav">Slepti/rodyti paveiksliuka</button>
+    <br>
+    <img src="sofa.jpeg" alt="sofa">
+
+
+
+
+        <script src="jquery-3.3.1.js"></script>
+         <script>
+         $(document).ready(function(){
+             $("#sleptirodyti").on("click", function() {
+                 $("p").toggle();
+             })
+         })
+         
+         </script>
+         <script>
+         $(document).ready(function(){
+             $("#sleptirodytipav").on("click", function(){
+                 $("img").toggle();
+             })
+         })
+         </script>
+</body>
+</html>
